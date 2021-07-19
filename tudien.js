@@ -1,11 +1,11 @@
-function searchLanguage(){
-    let translate = document.getElementById('input').value;
-    let english =['hello', 'thanks', 'japanse', 'vietnamse',
+let english =['hello', 'thanks', 'japanse', 'vietnamse',
     'country', 'mother', 'father', 'garandmother', 'grandfather',
     'love', 'sad', 'funny', 'happy'];
-    let vietnam =['xin chào', 'cảm ơn', 'Nhật Bản', 'Việt Nam',
+let vietnam =['xin chào', 'cảm ơn', 'Nhật Bản', 'Việt Nam',
     'quê hương', 'mẹ', 'bố', 'bà', 'ông', 'tình yêu', 'buồn', 'vui vẻ',
     'hạnh phúc'];
+function searchLanguage(){
+    let translate = document.getElementById('input').value;
     let text;
     for (let i = 0; i < english.length; i++) {
         if (translate == english[i]){
